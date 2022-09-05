@@ -23,9 +23,9 @@ func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) 
 	return todo, nil
 }
 
-// Todos is the resolver for the todos field.
-func (r *queryResolver) Todos(ctx context.Context) ([]*model.Todo, error) {
-	return r.todos, nil
+// Results is the resolver for the results field.
+func (r *queryResolver) Results(ctx context.Context) ([]model.Result, error) {
+	panic(fmt.Errorf("not implemented: Results - results"))
 }
 
 // Mutation returns generated.MutationResolver implementation.

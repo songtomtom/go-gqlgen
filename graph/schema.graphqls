@@ -9,26 +9,21 @@ type Todo {
   user: User!
 }
 
-type Todo2 {
-  id: ID!
-  text: String!
-  done: Boolean!
-  user: User!
-}
-
 type User {
   id: ID!
   name: String!
 }
 
 type Query {
-  todos: [Todo!]!
+  results: [Result!]!
 }
 
 input NewTodo {
   text: String!
   userId: String!
 }
+
+union Result = User | Todo
 
 type Mutation {
   createTodo(input: NewTodo!): Todo!
