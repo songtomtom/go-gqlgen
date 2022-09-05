@@ -1,4 +1,4 @@
-module github.com/songtomtom/go-graphql
+module github.com/songtomtom/go-gqlgen
 
 go 1.18
 
