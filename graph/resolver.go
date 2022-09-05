@@ -1,6 +1,6 @@
 package graph
 
-import "github.com/songtomtom/go-graphql/graph/model"
+import "github.com/songtomtom/go-gqlgen/graph/model"
 
 // This file will not be regenerated automatically.
 //

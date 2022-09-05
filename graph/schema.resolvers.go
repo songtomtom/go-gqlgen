@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/songtomtom/go-graphql/graph/generated"
-	"github.com/songtomtom/go-graphql/graph/model"
+	"github.com/songtomtom/go-gqlgen/graph/generated"
+	"github.com/songtomtom/go-gqlgen/graph/model"
 )
 
 // CreateTodo is the resolver for the createTodo field.
